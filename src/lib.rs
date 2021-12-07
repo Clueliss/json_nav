@@ -31,7 +31,7 @@ macro_rules! json_nav_internal {
     };
 }
 
-/// A macro for conveniently navigating [`serde_json::Value`]s without having
+/// A macro for conveniently navigating `serde_json::Values` without having
 /// to do all the error handling manually. This is especially useful
 /// for situations where you have do not have consistent or predictable json documents
 /// and you want to try multiple paths to find the one where the relevant information
